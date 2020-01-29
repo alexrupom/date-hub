@@ -1,3 +1,7 @@
 class HomePageController < ApplicationController
-  def index; end
+  def new
+    @name = 'sexy'
+  end
+
+
 end
